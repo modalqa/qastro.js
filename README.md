@@ -1,5 +1,10 @@
 
 
+
+<p align="center">
+  <img src="img/qastro.png" alt="QAstro.js logo" width="200" />
+</p>
+
 # QAstro.js
 
 QAstro.js is a modular library for automatic accessibility and security linting of web pages. Easily extensible with new rules.
