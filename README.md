@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="img/qastro.png" alt="QAstro.js logo" width="200" />
+  <img src="img/qastro.png" alt="QAstro.js logo" width="500" />
 </p>
 
 # QAstro.js
