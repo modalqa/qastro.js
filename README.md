@@ -1,15 +1,16 @@
 
+
 # QAstro.js
 
-QAstro.js adalah library modular untuk linting aksesibilitas dan keamanan halaman web secara otomatis saat halaman dimuat. Mudah di-extend dengan rule baru.
+QAstro.js is a modular library for automatic accessibility and security linting of web pages. Easily extensible with new rules.
 
-## Fitur
-- 🔄 Auto-run saat halaman dimuat
-- 🧪 Modular rule (checkTitle, checkImageAlt, checkFormLabel, dst)
-- 📋 Laporan di browser console
-- 🧩 Bisa di-extend dengan rule lain
+## Features
+- 🔄 Auto-run when the page loads
+- 🧪 Modular rules (checkTitle, checkImageAlt, checkFormLabel, etc)
+- 📋 Reports in the browser console
+- 🧩 Easily extensible with your own rules
 
-## Struktur Project
+## Project Structure
 
 ```
 qastro/
@@ -26,7 +27,7 @@ qastro/
 └── README.md
 ```
 
-## Cara Build
+## How to Build
 
 1. Install dependencies:
    ```bash
@@ -37,10 +38,10 @@ qastro/
    npm run build
    ```
 
-## Cara Pakai
+## Usage
 
-Include `dist/qastro.min.js` di halaman web. Laporan akan muncul otomatis di console.
+Include `dist/qastro.min.js` in your web page. Reports will automatically appear in the browser console.
 
-## Extend Rule
+## Extending Rules
 
-Tambahkan file rule baru di `src/rules/` dan import di `src/index.js`.
+Add a new rule file in `src/rules/` and import it in `src/index.js`.
