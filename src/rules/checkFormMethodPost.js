@@ -6,7 +6,7 @@ export default function checkFormMethodPost(report) {
     if (method !== 'post') {
       report({
         rule: 'checkFormMethodPost',
-        message: '<form> tanpa method POST ditemukan. Hindari GET untuk data sensitif.',
+        message: '<form> No POST method found. Avoid GET for sensitive data',
         element: form
       });
     }

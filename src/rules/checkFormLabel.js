@@ -9,7 +9,7 @@ export default function checkFormLabel(report) {
     ) {
       report({
         rule: 'checkFormLabel',
-        message: 'Form input tanpa label ditemukan.',
+        message: 'Unlabeled input form found',
         element: input
       });
     }

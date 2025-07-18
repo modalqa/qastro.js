@@ -4,7 +4,7 @@ export default function checkTitle(report) {
   if (!title || !title.textContent.trim()) {
     report({
       rule: 'checkTitle',
-      message: 'Halaman tidak memiliki <title> yang jelas.'
+      message: 'The page does not have a clear <title>'
     });
   }
 }

@@ -5,7 +5,7 @@ export default function checkFormAutocomplete(report) {
     if (!form.hasAttribute('autocomplete')) {
       report({
         rule: 'checkFormAutocomplete',
-        message: 'Form tanpa atribut autocomplete ditemukan.',
+        message: 'Form without autocomplete attribute found',
         element: form
       });
     }

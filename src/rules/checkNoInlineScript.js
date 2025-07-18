@@ -5,7 +5,7 @@ export default function checkNoInlineScript(report) {
     if (!script.src && script.textContent.trim()) {
       report({
         rule: 'checkNoInlineScript',
-        message: 'Inline <script> terdeteksi. Hindari inline script untuk keamanan.' ,
+        message: 'Inline <script> detected. Avoid inline scripts for security' ,
         element: script
       });
     }

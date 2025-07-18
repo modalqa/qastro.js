@@ -11,7 +11,7 @@ export default function checkMetaSecurity(report) {
   if (!metaXFO) {
     report({
       rule: 'checkMetaSecurity',
-      message: 'Meta X-Frame-Options tidak ditemukan.'
+      message: 'Meta X-Frame-Options not found'
     });
   }
 }

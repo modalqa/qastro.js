@@ -6,7 +6,7 @@ export default function checkPasswordAutocomplete(report) {
     if (!ac || ac === 'on') {
       report({
         rule: 'checkPasswordAutocomplete',
-        message: 'Field password sebaiknya menonaktifkan autofill dengan autocomplete="new-password".',
+        message: 'Password field should have autofill disabled with autocomplete="new-password',
         element: input
       });
     }

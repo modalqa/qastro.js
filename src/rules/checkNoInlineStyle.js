@@ -4,7 +4,7 @@ export default function checkNoInlineStyle(report) {
   elements.forEach(el => {
     report({
       rule: 'checkNoInlineStyle',
-      message: 'Inline style terdeteksi. Hindari penggunaan atribut style langsung.',
+      message: 'Inline style detected. Avoid using the style attribute directly',
       element: el
     });
   });

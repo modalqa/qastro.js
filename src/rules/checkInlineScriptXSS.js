@@ -7,7 +7,7 @@ export default function checkInlineScriptXSS(report) {
       if (!script.src && script.textContent.match(/[<>&"']/)) {
         report({
           rule: 'checkInlineScriptXSS',
-          message: 'Inline script berpotensi XSS ditemukan dan CSP tidak aktif.',
+          message: 'Inline script with potential XSS found and CSP is disabled',
           element: script
         });
       }
